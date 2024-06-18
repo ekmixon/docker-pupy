@@ -48,3 +48,4 @@ http_request
 -e external/pykcp
 flake8
 flake8-per-file-ignores
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
